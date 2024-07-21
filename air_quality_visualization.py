@@ -29,7 +29,7 @@ st.image('img/air_quality.jpg')
 st.title("**WHAT AIR QUALITY INDEX VALUE SAY?**")
 st.write("Find out what AQI values say about the possible health impacts given to you by air pollution.")
 
-c1, c2, c3 = st.beta_columns((1,5,1))
+c1, c2, c3 = st.columns((1,5,1))
 with c2:
     st.image('img/aqi.png')
 
@@ -93,7 +93,7 @@ fig_2d.update_layout(
 
 ########### PLOTTING GRAPHS ##################################################################################################################################################################################################################################################
 
-c1, c2 = st.beta_columns((1.1,1))
+c1, c2 = st.columns((1.1,1))
 
 with c1:
     st.subheader('3D Graph')
@@ -206,7 +206,7 @@ fig_demo.update_yaxes(automargin=True)
 
 ##############################################################################################################################################################################################################################################################################
 
-c1, c2 = st.beta_columns((1.5,1))
+c1, c2 = st.columns((1.5,1))
 
 with c1:
     st.plotly_chart(fig_air)
@@ -278,7 +278,7 @@ fig_2d.update_layout(
 
 ########### PLOTTING GRAPHS ##################################################################################################################################################################################################################################################
 
-c1, c2 = st.beta_columns((1.1,1))
+c1, c2 = st.columns((1.1,1))
 
 with c1:
     st.subheader('3D Graph')
@@ -346,14 +346,14 @@ st.image('img/air_pollutants.jpg')
 
 st.write("")
 
-c1, c2, c3 = st.beta_columns((1,5,1))
+c1, c2, c3 = st.columns((1,5,1))
 with c2:
     st.title("**About the Air Quality and Pollution Measurement**")
     st.write("")
     st.write("")
     st.write("")
 
-c1, c2 = st.beta_columns((0.9,1.3))
+c1, c2 = st.columns((0.9,1.3))
 
 with c1:
     st.image('img/aqi_chart.png')
@@ -362,7 +362,7 @@ with c2:
 
 st.write("")
 
-col1, col2, col3 = st.beta_columns([1,10,1])
+col1, col2, col3 = st.columns([1,10,1])
 
 with col1:
     st.write("")
